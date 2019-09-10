@@ -1,0 +1,77 @@
+================================================================================
+                                BIG PICTURE
+================================================================================
+
+|------------------------------|                        |--------------|
+|                              |  SMALL ADB COMMANDS    |              |
+|           HOST-LINUX         |----------------------->|     DUT      |
+|                              |                        |              |
+|------------------------------|                        |--------------|
+
+================================================================================
+                        HOW TO AVOID HARDWARE DEPENCIES
+================================================================================
+1.  For each android version we have a configuration file, it exports all the
+    variables related to system paths
+
+2.  If a new android version is released, we only have to add one more
+    configuration that will override the values that changed between versions
+
+3.  If a platform has a critical modification, we can provide a configuration
+    that will override the values
+
+================================================================================
+                               5 CRITICAL STEPS
+================================================================================
+
+                              |--------------------|
+                              | ENVIRONMENT SETUP  |
+                              |--------------------|
+                                       | |
+                                       | |
+                                       \ /
+                              |--------------------|
+                              | IMPORT TESTCASES   |
+                              |--------------------|
+                                       | |
+                                       | |
+                                       \ /
+                              |--------------------|
+                              | EXECUTE TESTCASES  |
+                              |--------------------|
+                                       | |
+                                       | |
+                                       \ /
+                              |--------------------|
+                              |   CREATE REPORT    |
+                              |--------------------|
+                                       | |
+                                       | |
+                                       \ /
+                              |--------------------|
+                              |   UPLOAD EXEC REP  |
+                              |--------------------|
+
+================================================================================
+                              How to add new test cases
+================================================================================
+    1.- If it does not exists a folder in ./scripts for your domain, create it
+    2.- Add all the common variables and functions to the ./config scripts
+    3.- Write the script under ./scripts/<YOUR_DOMAIN>
+    4.- Submit your patch
+
+================================================================================
+                              How to add new scenarios
+================================================================================
+    1.- If it does not exists a scenario in ./scenarios for your domain,
+        create it
+    2.- Write your test case in this format:
+        TAG SCRIPT  PARAMETERS
+    3.- You can check other  scenarios to follow the same format
+    4.- Submit your patch
+
+================================================================================
+                              How to push changes
+================================================================================
+    1.- commit your changes
+    2.- git push origin HEAD:refs/for/master

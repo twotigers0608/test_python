@@ -1,0 +1,11 @@
+Filesystem     1K-blocks     Used Available Use% Mounted on
+/dev/root       59460512 16183856  40226520  29% /
+devtmpfs         4042896        0   4042896   0% /dev
+tmpfs            4046084        0   4046084   0% /dev/shm
+tmpfs            4046084     2052   4044032   1% /run
+tmpfs            4046084        0   4046084   0% /sys/fs/cgroup
+tmpfs            4046084       56   4046028   1% /tmp
+clr_debug_fuse  59460512 16183856  40226520  29% /usr/src/debug
+clr_debug_fuse  59460512 16183856  40226520  29% /usr/lib/debug
+tmpfs             809216       16    809200   1% /run/user/311
+tmpfs             809216        0    809216   0% /run/user/1000

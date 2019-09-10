@@ -1,0 +1,11 @@
+Compilation:-
+
+Untar source code from https://github.com/01org/iio_testing_framework
+
+& place it under ./system/extras/iio_testing_framework/,
+You can use other folders also for compilation, above folder is just an example.
+
+Create an Android.mk file as given in example.
+Compile full code and  you will see executable in out/target/product/r2_cht_mrd/symbols/system/xbin/iio_testing_framework
+
+Use "iio_testing_framework" in test_script.sh for testing.

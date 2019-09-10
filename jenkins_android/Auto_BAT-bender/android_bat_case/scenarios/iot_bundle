@@ -1,0 +1,3 @@
+#in the works for Joule. testcase not verified.
+adb TC-ADB-ENABLE-WIFI adb.sh -t 6
+adb TC-ADB-DISABLE-WIFI adb.sh -t 8

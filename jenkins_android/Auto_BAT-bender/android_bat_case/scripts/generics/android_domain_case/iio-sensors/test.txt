@@ -1,0 +1,39 @@
+test "activate deactivate"{
+	clean_up_sensors
+	activate_deactivate accel magn anglvel counter 2
+}
+test "activate"{
+	activate accel magn anglvel
+}
+test "activate deactivate"{
+	clean_up_sensors
+	activate_deactivate accel magn anglvel counter 3
+}
+test "activate"{
+	activate accel magn anglvel
+}
+test "deactivate"{
+	deactivate accel magn anglvel
+}
+test "activate deactivate"{
+	activate_deactivate accel magn anglvel counter 2
+}
+test "activate all"{
+	clean_up_sensors
+	activate_all_sensors
+}
+test "deactivate all"{
+	deactivate_all_sensors
+}
+test "activate deactivate all"{
+	activate_deactivate_all_sensors counter 2
+}
+test "clean_up_sensors"{
+	clean_up_sensors
+}
+test "list sensors"{
+	list_sensors
+}
+test "list triggers"{
+	list_triggers
+}

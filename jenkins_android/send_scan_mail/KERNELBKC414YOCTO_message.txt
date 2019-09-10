@@ -1,0 +1,7 @@
+The Protex IP Scan for "KERNELBKC414YOCTO/20190901" has been finished. Please check below info for more detail:
+
+Full directory:
+http://ccprotexscan.jf.intel.com/BranchData/KERNELBKC414YOCTO/20190901/
+
+Report.html:
+http://ccprotexscan.jf.intel.com/BranchData/KERNELBKC414YOCTO/20190901/CodeCenter.Protex.Report.html

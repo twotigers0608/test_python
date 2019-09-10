@@ -1,0 +1,2 @@
+url=https://oak-jenkins.ostc.intel.com/job/intel-next-dev_build-clear-on-clear/954/artifact/build_clear_on_clear/artifacts/devbkc-clear_linux-5.3.0-rc8-954.tar.bz2
+tag=staging/intel-next-dev-embargoed-190910T071908Z
