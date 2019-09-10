@@ -1,0 +1,73 @@
+==============================Graphic unit test for Android=====================
+This project can automatic test the graphic domain test cases and generate the \
+csv and html format test report in results folder.
+Usage: run_igt_tests.sh [options]
+Available options:
+  -h              display this help message
+  -d <DEVID>      device ID
+  -t <CASE>       run single test case or tests listed in testlist
+Find the test results in results folder.
+The test result folder includes xx.log, xx.txt, xx.csv and xx.html files.
+
+================================================================================
+                                BIG PICTURE
+================================================================================
+
+|------------------------------|                        |--------------|
+|                              |  SMALL ADB COMMANDS    |              |
+|           HOST-LINUX         |----------------------->|     DUT      |
+|                              |                        |              |
+|------------------------------|                        |--------------|
+
+================================================================================
+                               5 CRITICAL STEPS
+================================================================================
+
+                              |--------------------|
+                              | ENVIRONMENT SETUP  |
+                              |--------------------|
+                                       | |
+                                       | |
+                                       \ /
+                              |--------------------|
+                              | IMPORT TESTCASES   |
+                              |--------------------|
+                                       | |
+                                       | |
+                                       \ /
+                              |--------------------|
+                              | EXECUTE TESTCASES  |
+                              |--------------------|
+                                       | |
+                                       | |
+                                       \ /
+                              |--------------------|
+                              |   CREATE REPORT    |
+                              |--------------------|
+                                       | |
+                                       | |
+                                       \ /
+                              |--------------------|
+                              |   UPLOAD EXEC REP  |
+                              |--------------------|
+
+================================================================================
+                              How to add new test cases
+================================================================================
+    1.- If it does not exists a folder in ./scripts for your domain, create it
+    2.- Write the script under ./scripts/<YOUR_DOMAIN>
+    3.- Submit your patch
+
+================================================================================
+                              How to add new scenarios
+================================================================================
+    1.- If it does not exists a scenario in ./scenarios for your domain,
+        create it
+    2.- You can check other  scenarios to follow the same format
+    3.- Submit your patch
+
+================================================================================
+                              How to push changes
+================================================================================
+    1.- commit your changes
+    2.- git push origin HEAD:refs/for/master

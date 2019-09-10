@@ -1,0 +1,4 @@
+Hi,all,
+Download image success. we will start to test android bat.
+Image link: https://oak-jenkins.ostc.intel.com/job/4.19-bkc-staging-gordon_peak_q/131
+Test job link: http://otcpkt.bj.intel.com:8080/job/Auto_BAT-bender/277

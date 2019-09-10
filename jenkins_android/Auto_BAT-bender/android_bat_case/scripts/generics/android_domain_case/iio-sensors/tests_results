@@ -1,0 +1,25 @@
+Tests results
+test "activate deactivate"
+			 passed
+test "activate"
+			 passed
+test "activate deactivate"
+			 passed
+test "activate"
+			 passed
+test "deactivate"
+			 passed
+test "activate deactivate"
+			 passed
+test "activate all"
+			 passed
+test "deactivate all"
+			 passed
+test "activate deactivate all"
+			 passed
+test "clean_up_sensors"
+			 passed
+test "list sensors"
+			 passed
+test "list triggers"
+			 passed

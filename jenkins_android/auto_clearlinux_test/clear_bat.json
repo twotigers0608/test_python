@@ -1,0 +1,10 @@
+{
+"tc-boot-first_boot": ["pass"],
+"tc-generics-kernel_version": ["pass"],
+"tc-generics-cpuinfo": ["pass"],
+"tc-generics-kernel_cmdline": ["pass"],
+"tc-generics-partitions": ["pass"],
+"tc-generics-mounts": ["pass"],
+"tc-generics-check_kernel_warning": ["pass"],
+"tc_wifi_driver_loaded": ["fail"],
+"tc_spectre_meltdown_check": ["fail"],

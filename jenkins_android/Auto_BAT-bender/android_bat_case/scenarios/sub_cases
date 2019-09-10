@@ -1,0 +1,4 @@
+adb TC-ADB-ENABLE-WIFI adb.sh -t 6
+adb TC-ADB-DISABLE-WIFI adb.sh -t 7
+adb TC-ADB-ENABLE-BLUETOOTH adb.sh -t 8
+adb TC-ADB-DISABLE-BLUETOOTH adb.sh -t 9
