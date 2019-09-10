@@ -7,7 +7,11 @@ import zipfile
 import shutil
 sys.path.append('/jenkins/workspace/Auto_download-Bender/')
 from auto_img import IMGAPITOOL, APIPATH, ApiLocalImgTool
+<<<<<<< HEAD
 from .html_tool import APIHTML as h
+=======
+from html_tool import APIHTML as h
+>>>>>>> origin/master
 
 
 class CustomError(Exception):
