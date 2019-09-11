@@ -5,6 +5,7 @@ import time
 import datetime
 import zipfile
 import shutil
+
 sys.path.append('/jenkins/workspace/Auto_download-Bender/')
 from .auto_img import IMGAPITOOL, APIPATH, ApiLocalImgTool
 from .html_tool import APIHTML as h
@@ -17,6 +18,7 @@ class ApiUnzip:
                 if not os.path.exists(f):
                     return False
             return func(*args)
+
         return inner
 
     @staticmethod
@@ -59,6 +61,7 @@ class TESTAPITOOL:
             return_value = func(unzipfile)
             ApiUnzip.delete_dir(unzipfile)
             return return_value
+
         return inner
 
     @staticmethod
@@ -66,7 +69,7 @@ class TESTAPITOOL:
     @__unzip_file_zsq
     def flash_gp(flash_zipFile_path):
         return_result_no = os.system('echo "intel@123"|sudo -S bash %s -t %s' %
-                            (APIPATH.auto_flash_scrip_path, flash_zipFile_path))
+                                     (APIPATH.auto_flash_scrip_path, flash_zipFile_path))
         if return_result_no != 0:
             return False  # print('刷机失败')
         IMGAPITOOL.time_sleep_with_print(100)
@@ -88,7 +91,9 @@ class TESTAPITOOL:
                         return func(unzip_fileName, devices_id)
                     elif t == retry_no:
                         return False
+
             return inner
+
         return __retry_zsq
 
     @staticmethod
@@ -131,7 +136,7 @@ class TESTAPITOOL:
                         if 'staging' in j['value']:
                             tag = j['value'].split('-')[-1]
             # 格式化邮件标题里的内容 2019w24.4-030813
-            n = '%sw%s.%s-%s' % (n[0], n[1], n[2], tag[tag.index('T')+1: -1])
+            n = '%sw%s.%s-%s' % (n[0], n[1], n[2], tag[tag.index('T') + 1: -1])
             if testResu:
                 # 执行adb命令将内核信息版本过滤
                 # Linux version 4.9.178-PKT-699e09f7-08086-gab8b76df024e (jenkins@oak-04) (gcc version 7.3.0 (GCC) ) #1 SMP PREEMPT Fri May 24 19:26:01 PDT 2019
@@ -146,6 +151,7 @@ class TESTAPITOOL:
                 buildno = jobNa
             subject = (default_sub.format(buildno=buildno, tag=tag, N=n, date=d), buildno)
             return func(cls, jobNa, buildNo, testResu, jenkins_url, result_file_path, failed_reason, subject)
+
         return inner
 
     def __handle_testResult_zsq(func):
@@ -154,7 +160,8 @@ class TESTAPITOOL:
                 result = 'Automatic test failed, please change to manual......</br>Failed reason: %s' % failed_reason
                 return func(cls, jobNa, buildNo, testResu, jenkins_url, result, failed_reason, subject)
             # 邮件里最上面的那句话 Hi All, Please find staging...........
-            mail_1 = h.p(h.span('Hi,all,', h.def_sty)) + h.p(h.span('Please find staging %s report.' % subject[1]), h.def_sty)
+            mail_1 = h.p(h.span('Hi,all,', h.def_sty)) + h.p(h.span('Please find staging %s report.' % subject[1]),
+                                                             h.def_sty)
 
             # 邮件里面标题
             mail_title_list = ['#Executive Summary:', '#Banned Words:',
@@ -176,8 +183,10 @@ class TESTAPITOOL:
             with open(result_file_path, 'r') as f:
                 table_2 = []
                 for i in f.readlines():
+                    #修改或者添加代码部分
+
                     line = i.split(',')
-                    td1 = h.td(h.p(int(line[0])+1), h.no_tab_1)
+                    td1 = h.td(h.p(int(line[0]) + 1), h.no_tab_1)
                     td2 = h.td(h.p(line[1]), h.no_tab_2)
                     td3 = h.td(h.p(line[2]), h.no_tab_3)
                     td4 = h.td(h.p(line[3]), h.no_tab_4)
@@ -210,22 +219,26 @@ class TESTAPITOOL:
             mail_2.insert(0, mail_1)
             result = ''.join(mail_2)
             return func(cls, jobNa, buildNo, testResu, jenkins_url, result, failed_reason, subject)
+
         return inner
 
     @classmethod
     @__handle_mailSubject_zsq
     @__handle_testResult_zsq
-    def handle_mailFile_format(cls, jobNa, buildNo, testResu, jenkins_url, result=None, failed_reason=None, subject=None):
+    def handle_mailFile_format(cls, jobNa, buildNo, testResu, jenkins_url, result=None, failed_reason=None,
+                               subject=None):
         # result_status = ['failed', 'success'][testResu]
         with open(APIPATH.message, 'w') as m, \
-            open(APIPATH.to, 'w') as t, \
-            open(APIPATH.subject, 'w') as s:
+                open(APIPATH.to, 'w') as t, \
+                open(APIPATH.subject, 'w') as s:
             s.write(subject[0])
             if testResu:
                 t.write(', '.join(cls.__to_someone_list[-1:]))
             else:
                 t.write(', '.join(cls.__to_someone_list[:3]))
             m.write(result)
+
+
 
 
 if __name__ == '__main__':
@@ -254,14 +267,17 @@ if __name__ == '__main__':
         testResult = TESTAPITOOL.test_gp(jobname)
         if testResult == False:
             # 测试失败
-            TESTAPITOOL.handle_mailFile_format(jobname, buildnumber, False, jenkinsurl, failed_reason='Not found the "device Id"')
+            TESTAPITOOL.handle_mailFile_format(jobname, buildnumber, False, jenkinsurl,
+                                               failed_reason='Not found the "device Id"')
         else:
-            android_version = os.popen("adb -s %s shell getprop ro.build.version.incremental | tr -d '\r'" % testResult).read()[:-1]
+            android_version = os.popen(
+                "adb -s %s shell getprop ro.build.version.incremental | tr -d '\r'" % testResult).read()[:-1]
             # 检查测试结果是否存在
             result = TESTAPITOOL.check_test_result('_'.join((android_version, jobname)), APIPATH.test_result_path)
             if result == False:
                 # 测试失败
-                TESTAPITOOL.handle_mailFile_format(jobname, buildnumber, False, jenkinsurl, failed_reason='Not found the test result file')
+                TESTAPITOOL.handle_mailFile_format(jobname, buildnumber, False, jenkinsurl,
+                                                   failed_reason='Not found the test result file')
             else:
                 # 测试成功
                 TESTAPITOOL.handle_mailFile_format(jobname, buildnumber, True, jenkinsurl, result)
