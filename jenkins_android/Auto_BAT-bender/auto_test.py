@@ -6,8 +6,8 @@ import datetime
 import zipfile
 import shutil
 sys.path.append('/jenkins/workspace/Auto_download-Bender/')
-from auto_img import IMGAPITOOL, APIPATH, ApiLocalImgTool
-from html_tool import APIHTML as h
+from .auto_img import IMGAPITOOL, APIPATH, ApiLocalImgTool
+from .html_tool import APIHTML as h
 
 
 class CustomError(Exception):

@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="590eff37-908a-4e55-b4eb-1b61a741b34a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/jenkins_android/Auto_BAT-bender/android_bat_case/scenarios/all" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins_android/Auto_BAT-bender/android_bat_case/scenarios/all" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins_android/Auto_BAT-bender/auto_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins_android/Auto_BAT-bender/auto_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins_android/Auto_BAT-bender/auto_test.py.bak" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins_android/Auto_BAT-bender/auto_test.py.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins_android/Auto_BAT-bender/message.html" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins_android/Auto_BAT-bender/message.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins_android/spectre-meltdown-checker" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins_android/spectre-meltdown-checker" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jenkins_android/Auto_BAT-bender/to.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jenkins_android/Auto_BAT-bender/html_tool.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="42" column="57" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jenkins_android/Auto_BAT-bender/message.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="152" column="35" lean-forward="true" selection-start-line="152" selection-start-column="35" selection-end-line="152" selection-end-column="35" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#p#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#span#0;n#p#9;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#span#0;n#p#9;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#2;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jenkins_android/Auto_BAT-bender/newmessage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="886">
+              <caret line="385" column="5" lean-forward="true" selection-start-line="385" selection-start-column="5" selection-end-line="385" selection-end-column="5" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#p#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#span#0;n#p#9;n#!!top" expanded="true" />
+                <element signature="e#1694#1928#0" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#span#0;n#p#9;n#!!top" expanded="true" />
+                <element signature="n#p#10;n#!!top" />
+                <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+                <element signature="n#td#0;n#!!top" />
+                <element signature="n#style#0;n#td#1;n#!!top" expanded="true" />
+                <element signature="n#td#1;n#!!top" />
+                <element signature="n#style#0;n#td#2;n#!!top" expanded="true" />
+                <element signature="n#td#2;n#!!top" />
+                <element signature="n#style#0;n#td#3;n#!!top" expanded="true" />
+                <element signature="n#td#3;n#!!top" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#tr#1;n#!!top" />
+                <element signature="e#3326#3646#0" />
+                <element signature="n#tr#3;n#!!top" />
+                <element signature="e#3696#3734#0" expanded="true" />
+                <element signature="e#3816#3854#0" expanded="true" />
+                <element signature="e#4231#4562#0" />
+                <element signature="e#4240#4374#0" />
+                <element signature="n#tr#4;n#!!top" />
+                <element signature="n#p#0;n#td#2;n#tr#4;n#!!top" />
+                <element signature="n#td#2;n#tr#5;n#!!top" />
+                <element signature="n#td#3;n#tr#5;n#!!top" />
+                <element signature="n#td#4;n#tr#5;n#!!top" />
+                <element signature="e#5168#5454#0" />
+                <element signature="n#p#0;n#td#3;n#tr#6;n#!!top" />
+                <element signature="e#5220#5550#0" />
+                <element signature="e#5557#6108#0" />
+                <element signature="n#tr#9;n#!!top" />
+                <element signature="n#tr#10;n#!!top" />
+                <element signature="n#tr#11;n#!!top" />
+                <element signature="n#tr#12;n#!!top" />
+                <element signature="n#tr#13;n#!!top" />
+                <element signature="n#tr#14;n#!!top" />
+                <element signature="n#tr#15;n#!!top" />
+                <element signature="e#8152#8474#0" />
+                <element signature="e#8161#8285#0" />
+                <element signature="n#tr#16;n#!!top" />
+                <element signature="e#8192#8230#0" expanded="true" />
+                <element signature="e#8177#8281#0" />
+                <element signature="e#8302#8340#0" expanded="true" />
+                <element signature="e#8286#8394#0" />
+                <element signature="n#td#2;n#tr#16;n#!!top" />
+                <element signature="n#td#3;n#tr#16;n#!!top" />
+                <element signature="n#td#4;n#tr#16;n#!!top" />
+                <element signature="n#tr#17;n#!!top" />
+                <element signature="n#tr#18;n#!!top" />
+                <element signature="n#tr#19;n#!!top" />
+                <element signature="n#tr#20;n#!!top" />
+                <element signature="n#tr#21;n#!!top" />
+                <element signature="n#td#2;n#tr#21;n#!!top" />
+                <element signature="n#td#3;n#tr#21;n#!!top" />
+                <element signature="n#td#4;n#tr#21;n#!!top" />
+                <element signature="n#tr#22;n#!!top" />
+                <element signature="n#tr#23;n#!!top" />
+                <element signature="n#tr#24;n#!!top" />
+                <element signature="n#tr#25;n#!!top" />
+                <element signature="n#tr#26;n#!!top" />
+                <element signature="n#tr#27;n#!!top" />
+                <element signature="n#tr#29;n#!!top" />
+                <element signature="e#13830#13840#0" />
+                <element signature="n#tr#30;n#!!top" />
+                <element signature="n#td#0;n#tr#30;n#!!top" />
+                <element signature="n#td#1;n#tr#30;n#!!top" />
+                <element signature="n#td#2;n#tr#30;n#!!top" />
+                <element signature="n#td#3;n#tr#30;n#!!top" />
+                <element signature="n#td#4;n#tr#30;n#!!top" />
+                <element signature="n#tr#32;n#!!top" />
+                <element signature="n#tr#33;n#!!top" />
+                <element signature="n#p#11;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jenkins_android/Auto_BAT-bender/auto_test.py.bak">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="188" lean-forward="true" selection-start-line="188" selection-end-line="188" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jenkins_android/Auto_BAT-bender/android_bat_case/scenarios/all">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jenkins_android/Auto_BAT-bender/auto_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jenkins_android/Auto_BAT-bender/auto_img.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1292">
+              <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+              <folding>
+                <element signature="e#19#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>boot</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/jenkins_android" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/jenkins_android/Auto_BAT-bender/auto_test.py" />
+        <option value="$PROJECT_DIR$/jenkins_android/Auto_BAT-bender/auto_test.py.bak" />
+        <option value="$PROJECT_DIR$/jenkins_android/Auto_BAT-bender/message.html" />
+        <option value="$PROJECT_DIR$/jenkins_android/Auto_BAT-bender/newmessage.html" />
+        <option value="$PROJECT_DIR$/jenkins_android/Auto_BAT-bender/android_bat_case/scenarios/all" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/test_python.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-39" />
+    <option name="y" value="39" />
+    <option name="width" value="975" />
+    <option name="height" value="1026" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="test_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_python" type="462c0819:PsiDirectoryNode" />
+              <item name="jenkins_android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_python" type="462c0819:PsiDirectoryNode" />
+              <item name="jenkins_android" type="462c0819:PsiDirectoryNode" />
+              <item name="Auto_BAT-bender" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_python" type="462c0819:PsiDirectoryNode" />
+              <item name="jenkins_android" type="462c0819:PsiDirectoryNode" />
+              <item name="Auto_BAT-bender" type="462c0819:PsiDirectoryNode" />
+              <item name="android_bat_case" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_python" type="462c0819:PsiDirectoryNode" />
+              <item name="jenkins_android" type="462c0819:PsiDirectoryNode" />
+              <item name="Auto_BAT-bender" type="462c0819:PsiDirectoryNode" />
+              <item name="android_bat_case" type="462c0819:PsiDirectoryNode" />
+              <item name="scenarios" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.auto_test">
+    <configuration name="auto_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jenkins_android/Auto_BAT-bender" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jenkins_android/Auto_BAT-bender/auto_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="html_tool" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jenkins_android/Auto_BAT-bender" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jenkins_android/Auto_BAT-bender/html_tool.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.auto_test" />
+        <item itemvalue="Python.html_tool" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="590eff37-908a-4e55-b4eb-1b61a741b34a" name="Default Changelist" comment="" />
+      <created>1568135836973</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568135836973</updated>
+      <workItem from="1568135838250" duration="3953000" />
+      <workItem from="1568196259714" duration="2000" />
+      <workItem from="1568196268888" duration="2726000" />
+      <workItem from="1568209329820" duration="4976000" />
+    </task>
+    <task id="LOCAL-00001" summary="forget to change the content">
+      <created>1568196383707</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568196383707</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11657000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20287451" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32925585" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32925585" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25815368" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32925585" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32925585" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="forget to change the content" />
+    <option name="LAST_COMMIT_MESSAGE" value="forget to change the content" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/test_python$html_tool.coverage" NAME="html_tool Coverage Results" MODIFIED="1568136503733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jenkins_android/Auto_BAT-bender" />
+    <SUITE FILE_PATH="coverage/test_python$auto_test.coverage" NAME="auto_test Coverage Results" MODIFIED="1568209338294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jenkins_android/Auto_BAT-bender" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/jenkins_android/Auto_BAT-bender/subject.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins_android/Auto_BAT-bender/to.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins_android/Auto_BAT-bender/auto_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins_android/Auto_BAT-bender/auto_img.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1292">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+          <folding>
+            <element signature="e#19#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins_android/Auto_BAT-bender/android_bat_case/scenarios/all">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins_android/Auto_BAT-bender/auto_test.py.bak">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="188" lean-forward="true" selection-start-line="188" selection-end-line="188" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins_android/Auto_BAT-bender/newmessage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="886">
+          <caret line="385" column="5" lean-forward="true" selection-start-line="385" selection-start-column="5" selection-end-line="385" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#p#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#span#0;n#p#9;n#!!top" expanded="true" />
+            <element signature="e#1694#1928#0" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#span#0;n#p#9;n#!!top" expanded="true" />
+            <element signature="n#p#10;n#!!top" />
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#td#0;n#!!top" />
+            <element signature="n#style#0;n#td#1;n#!!top" expanded="true" />
+            <element signature="n#td#1;n#!!top" />
+            <element signature="n#style#0;n#td#2;n#!!top" expanded="true" />
+            <element signature="n#td#2;n#!!top" />
+            <element signature="n#style#0;n#td#3;n#!!top" expanded="true" />
+            <element signature="n#td#3;n#!!top" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#tr#1;n#!!top" />
+            <element signature="e#3326#3646#0" />
+            <element signature="n#tr#3;n#!!top" />
+            <element signature="e#3696#3734#0" expanded="true" />
+            <element signature="e#3816#3854#0" expanded="true" />
+            <element signature="e#4231#4562#0" />
+            <element signature="e#4240#4374#0" />
+            <element signature="n#tr#4;n#!!top" />
+            <element signature="n#p#0;n#td#2;n#tr#4;n#!!top" />
+            <element signature="n#td#2;n#tr#5;n#!!top" />
+            <element signature="n#td#3;n#tr#5;n#!!top" />
+            <element signature="n#td#4;n#tr#5;n#!!top" />
+            <element signature="e#5168#5454#0" />
+            <element signature="n#p#0;n#td#3;n#tr#6;n#!!top" />
+            <element signature="e#5220#5550#0" />
+            <element signature="e#5557#6108#0" />
+            <element signature="n#tr#9;n#!!top" />
+            <element signature="n#tr#10;n#!!top" />
+            <element signature="n#tr#11;n#!!top" />
+            <element signature="n#tr#12;n#!!top" />
+            <element signature="n#tr#13;n#!!top" />
+            <element signature="n#tr#14;n#!!top" />
+            <element signature="n#tr#15;n#!!top" />
+            <element signature="e#8152#8474#0" />
+            <element signature="e#8161#8285#0" />
+            <element signature="n#tr#16;n#!!top" />
+            <element signature="e#8192#8230#0" expanded="true" />
+            <element signature="e#8177#8281#0" />
+            <element signature="e#8302#8340#0" expanded="true" />
+            <element signature="e#8286#8394#0" />
+            <element signature="n#td#2;n#tr#16;n#!!top" />
+            <element signature="n#td#3;n#tr#16;n#!!top" />
+            <element signature="n#td#4;n#tr#16;n#!!top" />
+            <element signature="n#tr#17;n#!!top" />
+            <element signature="n#tr#18;n#!!top" />
+            <element signature="n#tr#19;n#!!top" />
+            <element signature="n#tr#20;n#!!top" />
+            <element signature="n#tr#21;n#!!top" />
+            <element signature="n#td#2;n#tr#21;n#!!top" />
+            <element signature="n#td#3;n#tr#21;n#!!top" />
+            <element signature="n#td#4;n#tr#21;n#!!top" />
+            <element signature="n#tr#22;n#!!top" />
+            <element signature="n#tr#23;n#!!top" />
+            <element signature="n#tr#24;n#!!top" />
+            <element signature="n#tr#25;n#!!top" />
+            <element signature="n#tr#26;n#!!top" />
+            <element signature="n#tr#27;n#!!top" />
+            <element signature="n#tr#29;n#!!top" />
+            <element signature="e#13830#13840#0" />
+            <element signature="n#tr#30;n#!!top" />
+            <element signature="n#td#0;n#tr#30;n#!!top" />
+            <element signature="n#td#1;n#tr#30;n#!!top" />
+            <element signature="n#td#2;n#tr#30;n#!!top" />
+            <element signature="n#td#3;n#tr#30;n#!!top" />
+            <element signature="n#td#4;n#tr#30;n#!!top" />
+            <element signature="n#tr#32;n#!!top" />
+            <element signature="n#tr#33;n#!!top" />
+            <element signature="n#p#11;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins_android/Auto_BAT-bender/html_tool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="57" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins_android/Auto_BAT-bender/message.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="152" column="35" lean-forward="true" selection-start-line="152" selection-start-column="35" selection-end-line="152" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#p#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#span#0;n#p#9;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#span#0;n#p#9;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
