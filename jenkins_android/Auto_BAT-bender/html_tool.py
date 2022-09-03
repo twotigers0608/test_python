@@ -2,7 +2,7 @@
 
 class APIHTML:
     def_sty = 'style=\'font-size:11.0pt;font-family:"Calibri",sans-serif\''
-    tab_sty = 'border="0" cellspacing="0" cellpadding="0" width="0" style="width:548.75pt;border-collapse:collapse;"'
+    tab_sty = 'border="1" cellspacing="0" cellpadding="0" width="0" style="width:548.75pt;border-collapse:collapse;"'
     tab_1 = 'width="47" style="border:solid windowtext 1.0pt;background:#D9D9D9;"'
     tab_2 = 'width="131" style="border:solid windowtext 1.0pt;background:#D9D9D9;"'
     tab_3 = 'width="174" style="border:solid windowtext 1.0pt;background:#D9D9D9;"'

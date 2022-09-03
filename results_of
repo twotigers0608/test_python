@@ -1,0 +1,113 @@
+Hi CW testers, 
+
+如咱们短碰商量的，目前咱们BAT自动化 报告结果看着有点别扭，我稍微帮助整理了一下，建议样式如下，请根据建议，修正下脚本。
+
+Num 	Category	Tests case Name 	Result Android	Comment 
+1 	Boot 	TC-BOOT-FIRST_BOOT 	PASS 	
+		TC-BOOT-CHECK_BOOT_GUI 	FAIL 	
+		TC-BOOT-REBOOT 	PASS	
+2	Generics 	TC-GENERICS-CHECK_IMAGE_VERSION 	PASS 	
+		TC-GENERICS-CHECK_BIOS_VERSION 	PASS 	
+		TC-GENERICS-CHECK_KERNEL_VERSION 	PASS 	
+		TC-GENERICS-CHECK_BOARD_VERSION 	PASS 	
+		TC-GENERICS-CHECK_KERNEL_WARNNING 	PASS 	
+		TC-GENERICS_ANDROID_PROCESSES 	PASS 	
+		TC-GENERICS_SCREEN_CAPTURE 	PASS 	
+		TC-GENERICS_KERNEL_CMDLINE 	PASS 	
+		TC-GENERICS_CHECK_KERNEL_CONFIG 	PASS 	
+		TC-GENERICS_PARTITIONS 	PASS 	
+		TC-GENERICS_MOUNT 	PASS 	
+		TC-GENERICS_CPUINFO 	PASS 	
+		TC-GENERICS_TOMBSTONES 	PASS 	
+		TC-GENERICS_TRACE 	PASS 	
+		C-BAT-GENERICS_PANIC	PASS	
+3	Input Check	TC-INPUT-ALL_DEVICES 	PASS 	
+		TC-INPUT-TOUCHSCREEN_DRIVER 	PASS 	
+		TC-TOUCHSCREEN 	PASS 	
+4	Security Check	TC-SECURITY-DISK_ENCRYPTION 	PASS 	
+		TC-SECURITY-SELINUX_SUPPORT 	PASS 	
+		TC-SECURITY-SECURE_ADB 	PASS 	
+		TC-SECURITY-SYSTEM_MOUNT_READONLY 	PASS 	
+		TC-SECURITY-MELTDOWN 	PASS 	
+5	ADB Check
+	TC-ADB_CONNECT 	PASS 	
+		TC-ADB_PUSH 	PASS 	
+		TC-ADB_PULL 	PASS 	
+		TC-ADB_REMOUNT 	PASS 	
+6 	Camera 	TC-CAMERA 	PASS 	
+7 	WIFI 	TC-video	PASS	
+		TC-WIFI-CONNECT-CHECK 	FAIL 	
+8	PM 	TC-PM-SUSPEND-RESUME 	PASS 	
+		TC-PM-SUSPEND-RESUME-STRESS 	PASS 	
+
+Br/Fan 
+
+From: PK_PRC_JENKINS <jenkins@otcpkt.bj.intel.com> 
+Sent: Friday, September 6, 2019 4:27 AM
+To: PK SDK CW <pk.sdk.cw@intel.com>
+Subject: [QA][Staging][v4.19.68][Android][LTS][190905T163945Z] / 2019w36.5-163945/2019-09-06 01:15:17
+
+Hi,all, 
+Please find staging 4.19.68 report. 
+#Executive Summary: 
+Android BAT is "go". 
+#Banned Words: 
+None. 
+#Coverity Scan: 
+None. 
+#CVE Scan: 
+None. 
+#Spectre & Meltdown: 
+None. 
+#Known Issue: 
+None. 
+#Testing Information: 
+HW device: GP D0 8G (Model:J17532-502)
+Tested target: Android native
+Tested staging build link:
+ANDROID: https://oak-jenkins.ostc.intel.com/job/4.19-bkc-staging-gordon_peak_q/180 
+#Test Suite: 
+Num 	Type 	Tests suite name 	Android P on GP D0 	Remark 
+1 	boot 	TC-BOOT-FIRST_BOOT 	PASS 	
+2 	boot 	TC-BOOT-CHECK_BOOT_GUI 	FAIL 	
+3 	generics 	TC-GENERICS-CHECK_IMAGE_VERSION 	PASS 	
+4 	generics 	TC-GENERICS-CHECK_BIOS_VERSION 	PASS 	
+5 	generics 	TC-GENERICS-CHECK_KERNEL_VERSION 	PASS 	
+6 	generics 	TC-GENERICS-CHECK_BOARD_VERSION 	PASS 	
+7 	generics 	TC-GENERICS-CHECK_KERNEL_WARNNING 	PASS 	
+8 	generics 	TC-GENERICS_ANDROID_PROCESSES 	PASS 	
+9 	generics 	TC-GENERICS_SCREEN_CAPTURE 	PASS 	
+10 	generics 	TC-GENERICS_KERNEL_CMDLINE 	PASS 	
+11 	generics 	TC-GENERICS_CHECK_KERNEL_CONFIG 	PASS 	
+12 	generics 	TC-GENERICS_PARTITIONS 	PASS 	
+13 	generics 	TC-GENERICS_MOUNT 	PASS 	
+14 	generics 	TC-GENERICS_CPUINFO 	PASS 	
+15 	generics 	TC-GENERICS_TOMBSTONES 	PASS 	
+16 	generics 	TC-GENERICS_TRACE 	PASS 	
+17 	input 	TC-INPUT-ALL_DEVICES 	PASS 	
+18 	input 	TC-INPUT-TOUCHSCREEN_DRIVER 	PASS 	
+19 	input 	TC-TOUCHSCREEN 	PASS 	
+20 	security 	TC-SECURITY-DISK_ENCRYPTION 	PASS 	
+21 	security 	TC-SECURITY-SELINUX_SUPPORT 	PASS 	
+22 	security 	TC-SECURITY-SECURE_ADB 	PASS 	
+23 	security 	TC-SECURITY-SYSTEM_MOUNT_READONLY 	PASS 	
+24 	security 	TC-SECURITY-MELTDOWN 	PASS 	
+25 	adb 	TC-ADB_CONNECT 	PASS 	
+26 	adb 	TC-ADB_PUSH 	PASS 	
+27 	adb 	TC-ADB_PULL 	PASS 	
+28 	adb 	TC-ADB_REMOUNT 	PASS 	
+29 	boot 	TC-BOOT-REBOOT 	PASS 	
+30 	camera 	TC-CAMERA 	PASS 	
+31 	wifi 	TC-WIFI-CONNECT-CHECK 	FAIL 	
+32 	generics 	TC-BAT-GENERICS_PANIC 	PASS 	
+33 	pm 	TC-PM-SUSPEND-RESUME 	PASS 	
+34 	pm 	TC-PM-SUSPEND-RESUME-STRESS 	PASS 	
+35 	camera 	TC-video 	PASS 	
+#Test Log Archived: 
+None. 
+#Test reports Archived: 
+None.
+
+Best Regards
+PKT QA Team 
+`

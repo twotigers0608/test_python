@@ -1,0 +1,773 @@
+<p>
+    <span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>
+    Hi,all,
+</span>
+</p><p style='font-size:11.0pt;font-family:"Calibri",sans-serif'>
+    <span>
+    Please find staging 4.19.68 report.
+</span>
+</p><p>
+    <span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>
+    <b>
+    <u>
+    #Executive Summary:
+</u>
+</b></br>Android BAT is <span style='background:lime'>
+    "go".
+</span>
+</span>
+</p><p>
+    <span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>
+    <b>
+    <u>
+    #Banned Words:
+</u>
+</b></br>None.
+</span>
+</p><p>
+    <span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>
+    <b>
+    <u>
+    #Coverity Scan:
+</u>
+</b></br>None.
+</span>
+</p><p>
+    <span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>
+    <b>
+    <u>
+    #CVE Scan:
+</u>
+</b></br>None.
+</span>
+</p><p>
+    <span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>
+    <b>
+    <u>
+    #Spectre & Meltdown:
+</u>
+</b></br>None.
+</span>
+</p><p>
+    <span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>
+    <b>
+    <u>
+    #Known Issue:
+</u>
+</b></br>None.
+</span>
+</p><p>
+    <span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>
+    <b>
+    <u>
+    #Testing Information:
+</u>
+</b></br>HW device: GP D0 8G (Model:J17532-502)</br>Tested target: Android native</br>Tested staging build link:</br>
+        ANDROID: <a href="https://oak-jenkins.ostc.intel.com/job/4.19-bkc-staging-gordon_peak_q-baseline/37">
+    https://oak-jenkins.ostc.intel.com/job/4.19-bkc-staging-gordon_peak_q-baseline/37
+</a>
+</span>
+</p>
+<p>
+    <span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>
+    <b>
+    <u>
+    #Test Suite:
+</u>
+</b>
+
+<table border="2" cellspacing="0" cellpadding="0" width="0" style="width:548.75pt;border-collapse:collapse;">
+
+    <tbody>
+    <tr>
+    <td width="47" style="border:solid windowtext 1.0pt;background:#D9D9D9;">
+<p>
+    <b>Num</b>
+</p>
+</td>
+<td width="131" style="border:solid windowtext 1.0pt;background:#D9D9D9;">
+    <p>
+        <b>Type</b>
+    </p>
+</td>
+<td width="174" style="border:solid windowtext 1.0pt;background:#D9D9D9;">
+    <p>
+        <b>Tests suite name</b>
+    </p>
+</td>
+<td width="174" style="border:solid windowtext 1.0pt;background:#D9D9D9;">
+    <p>
+        <b>Android P on GP D0</b>
+    </p>
+</td>
+<td width="74" style="border:solid windowtext 1.0pt;background:#D9D9D9;">
+    <p>
+        <b>Remark</b>
+    </p>
+</td>
+</tr>
+<tr>
+    <th rowspan="3" width="47" style="border:solid windowtext 1.0pt;">
+        <p>
+            1
+        </p>
+    </th>
+    <th rowspan="3" width="131" style="border:solid windowtext 1.0pt;">
+        <p>
+            boot
+        </p>
+    </th>
+    <td width="174" style="border:solid windowtext 1.0pt;">
+        <p>
+            TC-BOOT-FIRST_BOOT
+        </p>
+    </td>
+    <td width="73" style="border:solid windowtext 1.0pt;">
+        <p>
+            PASS
+
+        </p>
+    </td>
+    <td width="307" style="border:solid windowtext 1.0pt;">
+
+    </td>
+</tr>
+<tr>
+    <td width="174" style="border:solid windowtext 1.0pt;">
+        <p>
+            TC-BOOT-CHECK_BOOT_GUI
+        </p>
+    </td>
+    <td width="73" style="border:solid windowtext 1.0pt;">
+        <p>
+            PASS
+        </p>
+    </td>
+    <td width="307" style="border:solid windowtext 1.0pt;">
+
+    </td>
+</tr>
+<tr>
+
+    <td width="174" style="border:solid windowtext 1.0pt;">
+        <p>
+            TC-BOOT-REBOOT
+        </p>
+    </td>
+    <td width="73" style="border:solid windowtext 1.0pt;">
+        <p>
+            PASS
+
+        </p>
+    </td>
+    <td width="307" style="border:solid windowtext 1.0pt;">
+
+    </td>
+</tr>
+
+<tr>
+    <th rowspan="15" width="47" style="border:solid windowtext 1.0pt;">
+        <p>
+            2
+        </p>
+    </th>
+    <th rowspan="15" width="131" style="border:solid windowtext 1.0pt;">
+        <p>
+            generics
+        </p>
+    </th>
+    <td width="174" style="border:solid windowtext 1.0pt;">
+        <p>
+            TC-GENERICS-CHECK_BIOS_VERSION
+        </p>
+    </td>
+    <td width="73" style="border:solid windowtext 1.0pt;">
+        <p>
+            PASS
+
+        </p>
+    </td>
+    <td width="307" style="border:solid windowtext 1.0pt;">
+
+    </td>
+</tr>
+<tr>
+    <td width="174" style="border:solid windowtext 1.0pt;">
+        <p>
+            TC-GENERICS-CHECK_IMAGE_VERSION
+        </p>
+    </td>
+    <td width="73" style="border:solid windowtext 1.0pt;">
+        <p>
+            PASS
+        </p>
+    </td>
+    <td width="307" style="border:solid windowtext 1.0pt;">
+
+    </td>
+</tr>
+<tr>
+    <td width="174" style="border:solid windowtext 1.0pt;">
+        <p>
+            TC-GENERICS-CHECK_KERNEL_VERSION
+        </p>
+    </td>
+    <td width="73" style="border:solid windowtext 1.0pt;">
+        <p>
+            PASS
+
+        </p>
+    </td>
+    <td width="307" style="border:solid windowtext 1.0pt;">
+
+    </td>
+</tr>
+<td width="174" style="border:solid windowtext 1.0pt;">
+    <p>
+        TC-GENERICS-CHECK_BOARD_VERSION
+    </p>
+</td>
+<td width="73" style="border:solid windowtext 1.0pt;">
+    <p>
+        PASS
+
+    </p>
+</td>
+<td width="307" style="border:solid windowtext 1.0pt;">
+
+</td>
+<tr>
+<td width="174" style="border:solid windowtext 1.0pt;">
+    <p>
+        TC-GENERICS-CHECK_KERNEL_WARNNING
+    </p>
+</td>
+<td width="73" style="border:solid windowtext 1.0pt;">
+    <p>
+        PASS
+
+    </p>
+</td>
+<td width="307" style="border:solid windowtext 1.0pt;">
+
+</td>
+</tr>
+<tr>
+    <td width="174" style="border:solid windowtext 1.0pt;">
+        <p>
+            TC-GENERICS_ANDROID_PROCESSES
+        </p>
+    </td>
+    <td width="73" style="border:solid windowtext 1.0pt;">
+        <p>
+            PASS
+
+        </p>
+    </td>
+    <td width="307" style="border:solid windowtext 1.0pt;">
+
+    </td>
+</tr>
+<tr>
+
+    <td width="174" style="border:solid windowtext 1.0pt;">
+        <p>
+            TC-GENERICS_SCREEN_CAPTURE
+        </p>
+    </td>
+    <td width="73" style="border:solid windowtext 1.0pt;">
+        <p>
+            PASS
+
+        </p>
+    </td>
+    <td width="307" style="border:solid windowtext 1.0pt;">
+
+    </td>
+</tr>
+<tr>
+    <td width="174" style="border:solid windowtext 1.0pt;">
+        <p>
+            TC-GENERICS_KERNEL_CMDLINE
+        </p>
+    </td>
+    <td width="73" style="border:solid windowtext 1.0pt;">
+        <p>
+            PASS
+
+        </p>
+    </td>
+    <td width="307" style="border:solid windowtext 1.0pt;">
+
+    </td>
+</tr>
+<tr>
+    <td width="174" style="border:solid windowtext 1.0pt;">
+        <p>
+            TC-GENERICS_CHECK_KERNEL_CONFIG
+        </p>
+    </td>
+    <td width="73" style="border:solid windowtext 1.0pt;">
+        <p>
+            PASS
+
+        </p>
+    </td>
+    <td width="307" style="border:solid windowtext 1.0pt;">
+
+    </td>
+</tr>
+<tr>
+    <td width="174" style="border:solid windowtext 1.0pt;">
+        <p>
+            TC-GENERICS_PARTITIONS
+        </p>
+    </td>
+    <td width="73" style="border:solid windowtext 1.0pt;">
+        <p>
+            PASS
+
+        </p>
+    </td>
+    <td width="307" style="border:solid windowtext 1.0pt;">
+
+    </td>
+</tr>
+<tr>
+
+    <td width="174" style="border:solid windowtext 1.0pt;">
+        <p>
+            TC-GENERICS_MOUNT
+        </p>
+    </td>
+    <td width="73" style="border:solid windowtext 1.0pt;">
+        <p>
+            PASS
+
+        </p>
+    </td>
+    <td width="307" style="border:solid windowtext 1.0pt;">
+
+    </td>
+</tr>
+<tr>
+
+    <td width="174" style="border:solid windowtext 1.0pt;">
+        <p>
+            TC-GENERICS_CPUINFO
+        </p>
+    </td>
+    <td width="73" style="border:solid windowtext 1.0pt;">
+        <p>
+            PASS
+
+        </p>
+    </td>
+    <td width="307" style="border:solid windowtext 1.0pt;">
+
+    </td>
+</tr>
+<tr>
+
+    <td width="174" style="border:solid windowtext 1.0pt;">
+        <p>
+            TC-GENERICS_TOMBSTONES
+        </p>
+    </td>
+    <td width="73" style="border:solid windowtext 1.0pt;">
+        <p>
+            PASS
+
+        </p>
+    </td>
+    <td width="307" style="border:solid windowtext 1.0pt;">
+
+    </td>
+</tr>
+<tr>
+
+    <td width="174" style="border:solid windowtext 1.0pt;">
+        <p>
+            TC-GENERICS_TRACE
+        </p>
+    </td>
+    <td width="73" style="border:solid windowtext 1.0pt;">
+        <p>
+            PASS
+
+        </p>
+    </td>
+    <td width="307" style="border:solid windowtext 1.0pt;">
+
+    </td>
+</tr>
+<tr>
+    <td width="174" style="border:solid windowtext 1.0pt;">
+        <p>
+            TC-BAT-GENERICS_PANIC
+        </p>
+    </td>
+    <td width="73" style="border:solid windowtext 1.0pt;">
+        <p>
+            PASS
+
+        </p>
+    </td>
+    <td width="307" style="border:solid windowtext 1.0pt;">
+
+    </td>
+</tr>
+<tr>
+    <td rowspan="3" width="47" style="border:solid windowtext 1.0pt;">
+        <p>
+            17
+        </p>
+    </td>
+    <td rowspan="3" width="131" style="border:solid windowtext 1.0pt;">
+        <p>
+            input
+        </p>
+    </td>
+    <td width="174" style="border:solid windowtext 1.0pt;">
+        <p>
+            TC-INPUT-ALL_DEVICES
+        </p>
+    </td>
+    <td width="73" style="border:solid windowtext 1.0pt;">
+        <p>
+            PASS
+
+        </p>
+    </td>
+    <td width="307" style="border:solid windowtext 1.0pt;">
+
+    </td>
+</tr>
+<tr>
+    <td width="174" style="border:solid windowtext 1.0pt;">
+        <p>
+            TC-INPUT-TOUCHSCREEN_DRIVER
+        </p>
+    </td>
+    <td width="73" style="border:solid windowtext 1.0pt;">
+        <p>
+            FAIL
+
+        </p>
+    </td>
+    <td width="307" style="border:solid windowtext 1.0pt;">
+
+    </td>
+</tr>
+<tr>
+    <td width="174" style="border:solid windowtext 1.0pt;">
+        <p>
+            TC-TOUCHSCREEN
+        </p>
+    </td>
+    <td width="73" style="border:solid windowtext 1.0pt;">
+        <p>
+            FAIL
+
+        </p>
+    </td>
+    <td width="307" style="border:solid windowtext 1.0pt;">
+
+    </td>
+</tr>
+<tr>
+    <td rowspan="5" width="47" style="border:solid windowtext 1.0pt;">
+        <p>
+            20
+        </p>
+    </td>
+    <td rowspan="5" width="131" style="border:solid windowtext 1.0pt;">
+        <p>
+            security
+        </p>
+    </td>
+    <td width="174" style="border:solid windowtext 1.0pt;">
+        <p>
+            TC-SECURITY-DISK_ENCRYPTION
+        </p>
+    </td>
+    <td width="73" style="border:solid windowtext 1.0pt;">
+        <p>
+            PASS
+
+        </p>
+    </td>
+    <td width="307" style="border:solid windowtext 1.0pt;">
+
+    </td>
+</tr>
+<tr>
+    <td width="174" style="border:solid windowtext 1.0pt;">
+        <p>
+            TC-SECURITY-SELINUX_SUPPORT
+        </p>
+    </td>
+    <td width="73" style="border:solid windowtext 1.0pt;">
+        <p>
+            PASS
+
+        </p>
+    </td>
+    <td width="307" style="border:solid windowtext 1.0pt;">
+
+    </td>
+</tr>
+<tr>
+    <td width="174" style="border:solid windowtext 1.0pt;">
+        <p>
+            TC-SECURITY-SECURE_ADB
+        </p>
+    </td>
+    <td width="73" style="border:solid windowtext 1.0pt;">
+        <p>
+            PASS
+
+        </p>
+    </td>
+    <td width="307" style="border:solid windowtext 1.0pt;">
+
+    </td>
+</tr>
+<tr>
+    <td width="174" style="border:solid windowtext 1.0pt;">
+        <p>
+            TC-SECURITY-SYSTEM_MOUNT_READONLY
+        </p>
+    </td>
+    <td width="73" style="border:solid windowtext 1.0pt;">
+        <p>
+            PASS
+
+        </p>
+    </td>
+    <td width="307" style="border:solid windowtext 1.0pt;">
+
+    </td>
+</tr>
+<tr>
+    <td width="174" style="border:solid windowtext 1.0pt;">
+        <p>
+            TC-SECURITY-MELTDOWN
+        </p>
+    </td>
+    <td width="73" style="border:solid windowtext 1.0pt;">
+        <p>
+            PASS
+
+        </p>
+    </td>
+    <td width="307" style="border:solid windowtext 1.0pt;">
+
+    </td>
+</tr>
+<tr>
+    <td rowspan="4" width="47" style="border:solid windowtext 1.0pt;">
+        <p>
+            25
+        </p>
+    </td>
+    <td rowspan="4" width="131" style="border:solid windowtext 1.0pt;">
+        <p>
+            adb
+        </p>
+    </td>
+    <td width="174" style="border:solid windowtext 1.0pt;">
+        <p>
+            TC-ADB_CONNECT
+        </p>
+    </td>
+    <td width="73" style="border:solid windowtext 1.0pt;">
+        <p>
+            PASS
+
+        </p>
+    </td>
+    <td width="307" style="border:solid windowtext 1.0pt;">
+
+    </td>
+</tr>
+<tr>
+    <td width="174" style="border:solid windowtext 1.0pt;">
+        <p>
+            TC-ADB_PUSH
+        </p>
+    </td>
+    <td width="73" style="border:solid windowtext 1.0pt;">
+        <p>
+            PASS
+
+        </p>
+    </td>
+    <td width="307" style="border:solid windowtext 1.0pt;">
+
+    </td>
+</tr>
+<tr>
+    <td width="174" style="border:solid windowtext 1.0pt;">
+        <p>
+            TC-ADB_PULL
+        </p>
+    </td>
+    <td width="73" style="border:solid windowtext 1.0pt;">
+        <p>
+            PASS
+
+        </p>
+    </td>
+    <td width="307" style="border:solid windowtext 1.0pt;">
+
+    </td>
+</tr>
+<tr>
+    <td width="174" style="border:solid windowtext 1.0pt;">
+        <p>
+            TC-ADB_REMOUNT
+        </p>
+    </td>
+    <td width="73" style="border:solid windowtext 1.0pt;">
+        <p>
+            PASS
+
+        </p>
+    </td>
+    <td width="307" style="border:solid windowtext 1.0pt;">
+
+    </td>
+</tr>
+<tr>
+    <td rowspan="2" width="47" style="border:solid windowtext 1.0pt;">
+        <p>
+            30
+        </p>
+    </td>
+    <td rowspan="2" width="131" style="border:solid windowtext 1.0pt;">
+        <p>
+            camera
+        </p>
+    </td>
+    <td width="174" style="border:solid windowtext 1.0pt;">
+        <p>
+            TC-CAMERA
+        </p>
+    </td>
+    <td width="73" style="border:solid windowtext 1.0pt;">
+        <p>
+            PASS
+
+        </p>
+    </td>
+    <td width="307" style="border:solid windowtext 1.0pt;">
+
+    </td>
+</tr>
+<tr>
+    <td width="174" style="border:solid windowtext 1.0pt;">
+        <p>
+            TC-video
+        </p>
+    </td>
+    <td width="73" style="border:solid windowtext 1.0pt;">
+        <p>
+            PASS
+
+        </p>
+    </td>
+    <td width="307" style="border:solid windowtext 1.0pt;">
+
+    </td>
+</tr>
+<tr>
+    <td width="47" style="border:solid windowtext 1.0pt;">
+        <p>
+            31
+        </p>
+    </td>
+    <td width="131" style="border:solid windowtext 1.0pt;">
+        <p>
+            wifi
+        </p>
+    </td>
+    <td width="174" style="border:solid windowtext 1.0pt;">
+        <p>
+            TC-WIFI-CONNECT-CHECK
+        </p>
+    </td>
+    <td width="73" style="border:solid windowtext 1.0pt;">
+        <p>
+            PASS
+
+        </p>
+    </td>
+    <td width="307" style="border:solid windowtext 1.0pt;">
+
+    </td>
+</tr>
+<tr>
+    <td rowspan="2" width="47" style="border:solid windowtext 1.0pt;">
+        <p>
+            33
+        </p>
+    </td>
+    <td rowspan="2" width="131" style="border:solid windowtext 1.0pt;">
+        <p>
+            pm
+        </p>
+    </td>
+    <td width="174" style="border:solid windowtext 1.0pt;">
+        <p>
+            TC-PM-SUSPEND-RESUME
+        </p>
+    </td>
+    <td width="73" style="border:solid windowtext 1.0pt;">
+        <p>
+            PASS
+
+        </p>
+    </td>
+    <td width="307" style="border:solid windowtext 1.0pt;">
+
+    </td>
+</tr>
+<tr>
+
+    <td width="174" style="border:solid windowtext 1.0pt;">
+        <p>
+            TC-PM-SUSPEND-RESUME-STRESS
+        </p>
+    </td>
+    <td width="73" style="border:solid windowtext 1.0pt;">
+        <p>
+            FAIL
+
+        </p>
+    </td>
+    <td width="307" style="border:solid windowtext 1.0pt;">
+
+    </td>
+</tr>
+</tbody>
+</table>
+
+</span>
+</p><p>
+    <span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>
+    <b>
+    <u>
+    #Test Log Archived:
+</u>
+</b></br>None.
+</span>
+</p><p>
+    <span style='font-size:11.0pt;font-family:"Calibri",sans-serif'>
+    <b>
+    <u>
+    #Test reports Archived:
+</u>
+</b></br>None.</br></br>Best Regards</br>PKT QA Team
+</span>
+</p>
